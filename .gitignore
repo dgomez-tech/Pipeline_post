@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración del sistema operativo / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos generados por el pipeline (outputs locales y logs)
+output/
+pipeline.log
