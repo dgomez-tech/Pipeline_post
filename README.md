@@ -4,7 +4,7 @@ Pequeño pipeline de ingeniería de datos profesional desarrollado en Python. In
 
 ---
 
-![Arquitectura del pipeline](img/arquitectura.png)
+![Arquitectura del pipeline](img/arquitectura.jpg)
 
 ## 🏗 Arquitectura del Pipeline
 
