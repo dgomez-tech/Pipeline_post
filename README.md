@@ -1,6 +1,6 @@
 # Pipeline de Ingesta, Limpieza y Validación de Posts
 
-Pequeño pipeline de ingeniería de datos profesional desarrollado en Python. Ingusta datos públicos de la API de **JSONPlaceholder**, los combina, limpia, valida bajo estrictas reglas de calidad y los exporta de forma optimizada en múltiples formatos (Parquet, CSV y base de datos SQLite).
+Pequeño pipeline de ingeniería de datos profesional desarrollado en Python. Ingesta datos públicos de la API de **JSONPlaceholder**, los combina, limpia, valida bajo estrictas reglas de calidad y los exporta de forma optimizada en múltiples formatos (Parquet, CSV y base de datos SQLite).
 
 ---
 
@@ -27,7 +27,6 @@ El flujo de datos sigue una arquitectura modular de 5 pasos claros:
 Pipeline_post/
 │
 ├── src/
-│   ├── __init__.py
 │   ├── ingesta.py       # Extracción de APIs externas con reintentos
 │   ├── limpieza.py      # Transformación, merge y limpieza de datos
 │   ├── validacion.py    # Reglas de calidad de datos
